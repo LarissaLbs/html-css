@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/enviar.php" method="post">
+        <fieldset>
+            <legend>escolha seu som</legend>
+
+            <div>
+                <input type="radio" id="body_count" name="grupo">
+                <label for="body_count">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/6/67/Body_Count_-_Body_Count.jpg?20140630153453" alt="body count" width="150" 
+                    height="100">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="faith_no_more" name="grupo" value="faith no more">
+                <label for="faith_no_more">
+                    <img src="https://upload.wikimedia.org/wikipedia/fi/a/a8/Faith_No_More_Introduce_Yourself.jpg?20080130152212" alt="faith_no_more" width="150" height="100">
+                </label>
+            </div>
+            <div>
+                <input type="radio" id="megadeth" name="grupo" value="megadeth">
+                <label for="megadeth">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/d/dc/Megadeth-RustInPeace.jpg?20250707000056" alt="megadeth" width="150" height="100">                  
+                </label>
+            </div>
+
+            <button type="submit">enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
